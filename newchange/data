@@ -1,0 +1,9 @@
+data "azurerm_subnet" "example" {
+
+  name                 = "actfunctout"
+
+  virtual_network_name = "a001-functiontest"
+
+  resource_group_name  = "core-parth-test"
+
+}
